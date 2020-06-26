@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="43d6e964-acfc-41c5-b09f-a7eb0ade7053" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1YV9MpSRLBf8C5uLKEQ3AyNahUg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="Arrays" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="43d6e964-acfc-41c5-b09f-a7eb0ade7053" name="Default Changelist" comment="" />
+      <created>1583016849038</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583016849038</updated>
+      <workItem from="1583016853060" duration="2819000" />
+      <workItem from="1583038171797" duration="2524000" />
+      <workItem from="1583172681735" duration="467000" />
+      <workItem from="1583198278497" duration="41000" />
+      <workItem from="1583198912303" duration="616000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1638" height="280" key="GridCell.Tab.0.bottom" timestamp="1583038160732">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="280" key="GridCell.Tab.0.bottom/-452.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1583038160732" />
+    <state width="1638" height="280" key="GridCell.Tab.0.center" timestamp="1583038160731">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="280" key="GridCell.Tab.0.center/-452.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1583038160731" />
+    <state width="1638" height="280" key="GridCell.Tab.0.left" timestamp="1583038160731">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="280" key="GridCell.Tab.0.left/-452.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1583038160731" />
+    <state width="1638" height="280" key="GridCell.Tab.0.right" timestamp="1583038160731">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="280" key="GridCell.Tab.0.right/-452.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1583038160731" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1583038186725">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/-452.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1583038186725" />
+    <state x="519" y="369" key="com.intellij.ide.util.TipDialog" timestamp="1583198285757">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="519" y="369" key="com.intellij.ide.util.TipDialog/-452.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1583198285757" />
+    <state x="234" y="159" key="new project wizard" timestamp="1583018546656">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="234" y="159" key="new project wizard/-452.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1583018546656" />
+  </component>
+</project>

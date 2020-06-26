@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8e47c265-c9e1-4204-a3dc-674d1b7d01b1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1YVLyWHIcX8TuZmbHBc6AF0yRth" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="AutoBoxingAndUnBoxing" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8e47c265-c9e1-4204-a3dc-674d1b7d01b1" name="Default Changelist" comment="" />
+      <created>1583023069747</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583023069747</updated>
+      <workItem from="1583023071090" duration="1886000" />
+      <workItem from="1583274094489" duration="1887000" />
+      <workItem from="1583988911024" duration="46000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="653" y="259" key="#com.intellij.ide.util.MemberChooser" timestamp="1583023239327">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="653" y="259" key="#com.intellij.ide.util.MemberChooser/-452.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1583023239327" />
+    <state width="1638" height="280" key="GridCell.Tab.0.bottom" timestamp="1583038163586">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="280" key="GridCell.Tab.0.bottom/-452.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1583038163586" />
+    <state width="1638" height="280" key="GridCell.Tab.0.center" timestamp="1583038163585">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="280" key="GridCell.Tab.0.center/-452.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1583038163585" />
+    <state width="1638" height="280" key="GridCell.Tab.0.left" timestamp="1583038163585">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="280" key="GridCell.Tab.0.left/-452.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1583038163585" />
+    <state width="1638" height="280" key="GridCell.Tab.0.right" timestamp="1583038163585">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="280" key="GridCell.Tab.0.right/-452.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1583038163585" />
+    <state x="234" y="159" key="new project wizard" timestamp="1583024179096">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="234" y="159" key="new project wizard/-452.-1417.2560.1417/0.23.1680.1027@0.23.1680.1027" timestamp="1583024179096" />
+  </component>
+</project>
