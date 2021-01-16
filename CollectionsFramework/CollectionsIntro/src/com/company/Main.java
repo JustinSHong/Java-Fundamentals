@@ -7,11 +7,20 @@ package com.company;
 // goals
     // good interoperability for existing and new collections
         // Arrays ---> framework allows conversion to and from collections
+    // consistent api
+        // classes the implement these interfaces have some common set of methods
+    // reduce programming effort
+        // no need to worry about the design of the Collection (focus on best use) ----> abstraction
+    // increase program speed and quality
+        // provide high perf implementations of useful data structures
+        // provide high perf implementations of algorithms
 
+// What makes up the Collections framework?
 // interfaces - abstract types representing collections (List)
+    // form a hierarchy in the framework
 // aggregate operations
 // iterators
-// concrete implementations
+// implementations
     // collections
     // algorithms
 
@@ -49,7 +58,7 @@ public class Main {
             System.out.println("Sorry, seat is taken");
         }
 
-//        // shallow copy - objects are still shared
+//        // shallow copy - objects are still shared / they share the same reference
         List<Theatre.Seat> seatCopy = new ArrayList<>(theatre.getSeats());
         printList(seatCopy);
 
