@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4eaf4bda-0d7e-49a3-a403-4210d919f118" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Java_Master_Class.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Java-Fundamentals.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +21,6 @@
   <component name="ProjectId" id="1XpN5R8D9ugwpZYgDnAuOM201fL" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -29,13 +29,17 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Java_Master_Class" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CharAndBoolean/" />
+      <module name="Java-Fundamentals" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HelloWorld/src" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -47,6 +51,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Java Scratch">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <method v="2">
@@ -54,6 +71,7 @@
       </method>
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -84,41 +102,46 @@
       <workItem from="1590538497825" duration="934000" />
       <workItem from="1591471452293" duration="208000" />
       <workItem from="1593211524274" duration="751000" />
+      <workItem from="1610847816833" duration="344000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="2518" height="399" key="GridCell.Tab.0.bottom" timestamp="1589842930859">
-      <screen x="-467" y="-1417" width="2560" height="1417" />
+    <state x="328" y="118" key="#Project_Structure" timestamp="1610847890721">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="2518" height="399" key="GridCell.Tab.0.bottom/0.23.1680.1027/-467.-1417.2560.1417@-467.-1417.2560.1417" timestamp="1589842930859" />
-    <state width="2518" height="399" key="GridCell.Tab.0.center" timestamp="1589842930858">
-      <screen x="-467" y="-1417" width="2560" height="1417" />
+    <state x="328" y="118" key="#Project_Structure/0.23.1680.1027@0.23.1680.1027" timestamp="1610847890721" />
+    <state x="304" y="182" width="1071" height="868" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610848138877">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="2518" height="399" key="GridCell.Tab.0.center/0.23.1680.1027/-467.-1417.2560.1417@-467.-1417.2560.1417" timestamp="1589842930858" />
-    <state width="2518" height="399" key="GridCell.Tab.0.left" timestamp="1589842930858">
-      <screen x="-467" y="-1417" width="2560" height="1417" />
+    <state x="304" y="182" width="1071" height="868" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1610848138877" />
+    <state x="364" y="224" width="1085" height="699" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1610848036973">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="2518" height="399" key="GridCell.Tab.0.left/0.23.1680.1027/-467.-1417.2560.1417@-467.-1417.2560.1417" timestamp="1589842930858" />
-    <state width="2518" height="399" key="GridCell.Tab.0.right" timestamp="1589842930859">
-      <screen x="-467" y="-1417" width="2560" height="1417" />
+    <state x="364" y="224" width="1085" height="699" key="#com.intellij.ide.macro.MacrosDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1610848036973" />
+    <state width="1636" height="271" key="GridCell.Tab.0.bottom" timestamp="1610848160231">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="2518" height="399" key="GridCell.Tab.0.right/0.23.1680.1027/-467.-1417.2560.1417@-467.-1417.2560.1417" timestamp="1589842930859" />
-    <state x="602" y="-785" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593212191184">
-      <screen x="-467" y="-1417" width="2560" height="1417" />
+    <state width="1636" height="271" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1610848160230" />
+    <state width="1636" height="271" key="GridCell.Tab.0.center" timestamp="1610848160230">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="602" y="-785" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.1027/-467.-1417.2560.1417@-467.-1417.2560.1417" timestamp="1593212191184" />
-    <state x="191" y="-1298" width="1244" height="1180" key="find.popup" timestamp="1589845285778">
-      <screen x="-467" y="-1417" width="2560" height="1417" />
+    <state width="1636" height="271" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1610848160230" />
+    <state width="1636" height="271" key="GridCell.Tab.0.left" timestamp="1610848160229">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="191" y="-1298" width="1244" height="1180" key="find.popup/0.23.1680.1027/-467.-1417.2560.1417@-467.-1417.2560.1417" timestamp="1589845285778" />
-    <state x="303" y="-1105" width="670" height="676" key="search.everywhere.popup" timestamp="1593211703996">
-      <screen x="-467" y="-1417" width="2560" height="1417" />
+    <state width="1636" height="271" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1610848160229" />
+    <state width="1636" height="271" key="GridCell.Tab.0.right" timestamp="1610848160230">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="303" y="-1105" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027/-467.-1417.2560.1417@-467.-1417.2560.1417" timestamp="1593211703996" />
+    <state width="1636" height="271" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1610848160230" />
+    <state x="328" y="118" key="SettingsEditor" timestamp="1610847878141">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="328" y="118" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1610847878141" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Java_Master_Class$Main.ic" NAME="Main Coverage Results" MODIFIED="1581743141195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
