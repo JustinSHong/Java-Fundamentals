@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fc246a07-4702-4b64-acbe-7f4f274f3b94" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SetAndHashSet/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Challenges/Encapsulation/.idea/description.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Encapsulation/.idea/description.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Challenges/Encapsulation/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Encapsulation/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Challenges/Encapsulation/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Encapsulation/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Challenges/Encapsulation/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Encapsulation/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Challenges/Encapsulation/.idea/project-template.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Encapsulation/.idea/project-template.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Challenges/Encapsulation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Encapsulation/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Challenges/Encapsulation/Encapsulation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Encapsulation/Encapsulation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Challenges/Encapsulation/out/production/Encapsulation/com/company/EnhancedPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Encapsulation/out/production/Encapsulation/com/company/EnhancedPlayer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Challenges/Encapsulation/out/production/Encapsulation/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Encapsulation/out/production/Encapsulation/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Challenges/Encapsulation/out/production/Encapsulation/com/company/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Encapsulation/out/production/Encapsulation/com/company/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Challenges/Encapsulation/src/com/company/EnhancedPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Encapsulation/src/com/company/EnhancedPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Challenges/Encapsulation/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Encapsulation/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Challenges/Encapsulation/src/com/company/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Encapsulation/src/com/company/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SetAndHashSet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SetAndHashSet/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1chDtjsoCDI6j0J9XN2zzOW0wPu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="Collections" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.MapExample" />
+      <module name="Collections" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MapExample" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc246a07-4702-4b64-acbe-7f4f274f3b94" name="Default Changelist" comment="" />
+      <created>1590972147119</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590972147119</updated>
+      <workItem from="1590972149673" duration="4189000" />
+      <workItem from="1591471859075" duration="10418000" />
+      <workItem from="1594681620244" duration="1528000" />
+      <workItem from="1594835938742" duration="34000" />
+      <workItem from="1604443828900" duration="1383000" />
+      <workItem from="1604699089595" duration="508000" />
+      <workItem from="1605828447073" duration="599000" />
+      <workItem from="1606007618687" duration="44000" />
+      <workItem from="1606336748625" duration="962000" />
+      <workItem from="1608052189235" duration="195000" />
+      <workItem from="1608672266893" duration="36000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="626" y="-986" key="#com.intellij.ide.util.MemberChooser" timestamp="1590976009263">
+      <screen x="-467" y="-1417" width="2560" height="1417" />
+    </state>
+    <state x="626" y="-986" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027/-467.-1417.2560.1417@-467.-1417.2560.1417" timestamp="1590976009263" />
+    <state width="1636" height="295" key="GridCell.Tab.0.bottom" timestamp="1591891744701">
+      <screen x="-467" y="-1417" width="2560" height="1417" />
+    </state>
+    <state width="1636" height="295" key="GridCell.Tab.0.bottom/0.23.1680.1027/-467.-1417.2560.1417@-467.-1417.2560.1417" timestamp="1591891744701" />
+    <state width="1636" height="295" key="GridCell.Tab.0.center" timestamp="1591891744701">
+      <screen x="-467" y="-1417" width="2560" height="1417" />
+    </state>
+    <state width="1636" height="295" key="GridCell.Tab.0.center/0.23.1680.1027/-467.-1417.2560.1417@-467.-1417.2560.1417" timestamp="1591891744701" />
+    <state width="1636" height="295" key="GridCell.Tab.0.left" timestamp="1591891744700">
+      <screen x="-467" y="-1417" width="2560" height="1417" />
+    </state>
+    <state width="1636" height="295" key="GridCell.Tab.0.left/0.23.1680.1027/-467.-1417.2560.1417@-467.-1417.2560.1417" timestamp="1591891744700" />
+    <state width="1636" height="295" key="GridCell.Tab.0.right" timestamp="1591891744701">
+      <screen x="-467" y="-1417" width="2560" height="1417" />
+    </state>
+    <state width="1636" height="295" key="GridCell.Tab.0.right/0.23.1680.1027/-467.-1417.2560.1417@-467.-1417.2560.1417" timestamp="1591891744701" />
+    <state x="301" y="-1127" key="SettingsEditor" timestamp="1590972517551">
+      <screen x="-467" y="-1417" width="2560" height="1417" />
+    </state>
+    <state x="301" y="-1127" key="SettingsEditor/0.23.1680.1027/-467.-1417.2560.1417@-467.-1417.2560.1417" timestamp="1590972517551" />
+    <state x="207" y="-1086" key="new project wizard" timestamp="1591487442489">
+      <screen x="-467" y="-1417" width="2560" height="1417" />
+    </state>
+    <state x="207" y="-1086" key="new project wizard/0.23.1680.1027/-467.-1417.2560.1417@-467.-1417.2560.1417" timestamp="1591487442489" />
+    <state x="583" y="-1092" width="670" height="676" key="search.everywhere.popup" timestamp="1594682416831">
+      <screen x="-362" y="-1417" width="2560" height="1417" />
+    </state>
+    <state x="583" y="-1092" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027/-362.-1417.2560.1417@-362.-1417.2560.1417" timestamp="1594682416831" />
+  </component>
+</project>
