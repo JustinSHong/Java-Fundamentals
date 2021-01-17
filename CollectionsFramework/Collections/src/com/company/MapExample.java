@@ -57,10 +57,11 @@ public class MapExample {
         if (languages.remove("Algol", "an algorithmic language")) {
             System.out.println("Algol was removed from languages map");
         } else {
-            System.out.println("Algol was not rmeoved, key/value pair was not found");
+            System.out.println("Algol was not removed, key/value pair was not found");
         }
 
         // REPLACING/UPDATING AN ENTRY
+        // replace a value for a key if mapped to a certain value already
         if (languages.replace("Lisp", "Therein lies madness", "a functional programming language")) {
             System.out.println("Lisp replaced");
         } else {
@@ -71,6 +72,12 @@ public class MapExample {
         // keySet returns a set of keys
         for (String key: languages.keySet()) {
             System.out.println(key + " : " + languages.get(key));
+        }
+
+        System.out.println("===================================");
+        // values returns set of values
+        for (String value: languages.values()) {
+            System.out.println(value);
         }
     }
 }
