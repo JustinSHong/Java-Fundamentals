@@ -1,8 +1,9 @@
 package com.company;
 
-import com.sun.org.apache.bcel.internal.generic.RETURN;
+import com.sun.xml.internal.ws.wsdl.writer.document.soap.Body;
 
 import java.util.HashSet;
+import java.util.Objects;
 import java.util.Set;
 
 // Sets
@@ -18,9 +19,11 @@ import java.util.Set;
     // intersection
 
 // union of 2 or more sets - results in a set containing all elements of the sets ---> each elements will be unique
+    // addAll method
 
 // only references to objects are being stored in the sets
 
+// when using your own object as keys in a map or adding elements to a set
 // WARNING: should override equals and hashCode methods
     // base object equals ----> only defines referential equality (too simple)
     // objects must be strictly equal
@@ -29,7 +32,20 @@ import java.util.Set;
     // when new objects are added
         // new objects are compared to existing ones in a bucket
 
+// ===================================================================
+
 // IF 2 OBJECTS COMPARE EQUAL THEN THEIR HASH CODES MUST BE EQUAL
+    // objects with the same hash code go in to the same bucket
+    // before being added, objects in a bucket are compared to each other using equals()
+
+// IF 2 OBJECTS COMPARE EQUAL AND THEIR HASH CODES ARE NOT EQUAL
+    // dupes occur
+    // objects will be added to different buckets
+
+// THE SAME OBJECT SHOULD GENERATE THE SAME HASH CODE
+
+
+// ===================================================================
 
 // BE CAREFUL WHEN COMPARING SUBCLASSES
     // childClass.equals(parentClass) ----> true because child extends parent
@@ -46,9 +62,11 @@ import java.util.Set;
 
 public abstract class HeavenlyBody {
     private final Key key;
-    private final Set<HeavenlyBody> satellites;
     private final double orbitalPeriod;
+    private final Set<HeavenlyBody> satellites;
 
+    // using a value not in this enum will throw an error at compile time
+    // automatically static
     public enum BodyTypes {
         STAR,
         PLANET,
@@ -56,6 +74,11 @@ public abstract class HeavenlyBody {
         MOON,
         COMET,
         ASTEROID
+    }
+
+    // users can use this to generate a key in order to look up different heavenly bodies
+    public static Key makeKey(String name, BodyTypes bodyType) {
+        return new Key(name, bodyType);
     }
 
     public HeavenlyBody(String name, double orbitalPeriod, BodyTypes bodyType) {
@@ -72,40 +95,44 @@ public abstract class HeavenlyBody {
         return orbitalPeriod;
     }
 
-    public Set<HeavenlyBody> getSatellites() {
-        return new HashSet<HeavenlyBody>(satellites);
-    }
-
     public boolean addSatellite(HeavenlyBody moon) {
-        return this.satellites.add(moon);
+        return satellites.add(moon);
     }
 
-    // we want to override not overload the equals
+    public Set<HeavenlyBody> getSatellites() {
+        return new HashSet<>(satellites);
+    }
+
     @Override
     public final boolean equals(Object obj) {
         if (this == obj) {
-            return true; // object equal to itself
+            return true;
         }
 
-        // name and body type must match
+        // obj can't be null -> NPE
+        // check that obj is not a sub-class
+//        if (obj == null || (obj.getClass() != this.getClass())) {
+//            return false;
+//        }
+
         if (obj instanceof HeavenlyBody) {
             HeavenlyBody theObject = (HeavenlyBody) obj;
-
             return this.key.equals(theObject.getKey());
+//            if (this.name.equals(((HeavenlyBody) obj).getName())) {
+//                return this.bodyType == theObject.getBodyType();
+//            }
         }
 
-        // object must be a HeavenlyBody
+        // criteria for Heavenly Body equality
+//        String objName = ((HeavenlyBody) obj).getName();
+//        return this.name.equals(objName);
+
         return false;
     }
 
-    // REQUIREMENTS
-        // objects that compare equal must have the same hash code
-        // same object must always generate the same hashcode
-
-    // return 0 strategy ---> every object in 1 bucket ---> performance degrades ---> must compare to all objects
-
     @Override
     public final int hashCode() {
+//        return this.name.hashCode() + this.bodyType.hashCode() + 57;
         return this.key.hashCode();
     }
 
@@ -114,12 +141,6 @@ public abstract class HeavenlyBody {
         return this.key.name + ": " + this.key.bodyType + ", " + this.orbitalPeriod;
     }
 
-    // generate a key to look up values in the map object
-    public static Key makeKey(String name, BodyTypes bodyType) {
-        return new Key(name, bodyType);
-    }
-
-    // REPRESENTS THE KEY IN OUR SOLAR SYSTEM MAP
     public static final class Key {
         private String name;
         private BodyTypes bodyType;
@@ -138,17 +159,17 @@ public abstract class HeavenlyBody {
         }
 
         @Override
-        public int hashCode() {
-            return this.name.hashCode() + 57 + this.bodyType.hashCode();
-        }
-
-        @Override
         public boolean equals(Object obj) {
             Key key = (Key) obj;
             if (this.name.equals(key.getName())) {
-                return this.bodyType == key.getBodyType();
+                return (this.bodyType == key.getBodyType());
             }
             return false;
+        }
+
+        @Override
+        public int hashCode() {
+            return this.name.hashCode() + 57 + this.bodyType.hashCode();
         }
 
         @Override

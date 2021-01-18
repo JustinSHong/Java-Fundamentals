@@ -2,15 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee8f288c-4748-4262-a3a1-174129771fc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Collections/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Collections/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Collections/out/production/Collections/com/company/MapExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Collections/out/production/Collections/com/company/MapExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Collections/out/production/Collections/com/company/Theatre$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Collections/out/production/Collections/com/company/Theatre$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Collections/out/production/Collections/com/company/Theatre$Seat.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Collections/out/production/Collections/com/company/Theatre$Seat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Collections/out/production/Collections/com/company/Theatre.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Collections/out/production/Collections/com/company/Theatre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Collections/src/com/company/MapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Collections/src/com/company/MapExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SetAndHashSet/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SetAndHashSet/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SetAndHashSet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SetAndHashSet/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SetAndHashSet/out/production/SetAndHashSet/META-INF/SetAndHashSet.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SetAndHashSet/out/production/SetAndHashSet/com/company/DwarfPlanet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SetAndHashSet/out/production/SetAndHashSet/com/company/DwarfPlanet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SetAndHashSet/out/production/SetAndHashSet/com/company/HeavenlyBody$BodyTypes.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SetAndHashSet/out/production/SetAndHashSet/com/company/HeavenlyBody$BodyTypes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SetAndHashSet/out/production/SetAndHashSet/com/company/HeavenlyBody$Key.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SetAndHashSet/out/production/SetAndHashSet/com/company/HeavenlyBody$Key.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SetAndHashSet/out/production/SetAndHashSet/com/company/HeavenlyBody.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SetAndHashSet/out/production/SetAndHashSet/com/company/HeavenlyBody.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SetAndHashSet/out/production/SetAndHashSet/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SetAndHashSet/out/production/SetAndHashSet/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SetAndHashSet/out/production/SetAndHashSet/com/company/SetMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SetAndHashSet/out/production/SetAndHashSet/com/company/SetMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SetAndHashSet/src/com/company/DwarfPlanet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SetAndHashSet/src/com/company/DwarfPlanet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SetAndHashSet/src/com/company/HeavenlyBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SetAndHashSet/src/com/company/HeavenlyBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SetAndHashSet/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SetAndHashSet/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SetAndHashSet/src/com/company/SetMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SetAndHashSet/src/com/company/SetMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +43,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -78,7 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1591477654147</updated>
       <workItem from="1591477655651" duration="6524000" />
-      <workItem from="1610854606239" duration="3632000" />
+      <workItem from="1610854606239" duration="4412000" />
     </task>
     <servers />
   </component>
@@ -90,5 +97,21 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="1029" y="259" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1610916260860" />
+    <state width="947" height="389" key="GridCell.Tab.0.bottom" timestamp="1610919010454">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="947" height="389" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1610919010454" />
+    <state width="947" height="389" key="GridCell.Tab.0.center" timestamp="1610919010453">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="947" height="389" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1610919010453" />
+    <state width="947" height="389" key="GridCell.Tab.0.left" timestamp="1610919010452">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="947" height="389" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1610919010452" />
+    <state width="947" height="389" key="GridCell.Tab.0.right" timestamp="1610919010453">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="947" height="389" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1610919010453" />
   </component>
 </project>

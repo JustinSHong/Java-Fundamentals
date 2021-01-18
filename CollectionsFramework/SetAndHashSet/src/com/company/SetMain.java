@@ -4,8 +4,8 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
-// set bulk operations - allow you to find symmetric differences or similarities
-    // destructive operations - the modify the set that is called upo n
+// BULK OPERATIONS - allow you to find symmetric differences or similarities
+    // destructive operations - the modify the set that is called upon
     // set1.addAll(set2) - returns the union of 2 sets
     // set1.retainsAll(set2) - returns the intersection of 2 sets
     // set1.removeAll(set2) - removes all elements in one set from another
@@ -15,18 +15,19 @@ import java.util.Set;
 
 // convert an array to a List with Array.asList()
 
-// differences in sets: asymmetric vs symmetric
-    // asymmetric - remove elements that are shared between sets from the first set / removing els in the intersection
+// DIFFERENCES IN SETS: asymmetric vs symmetric
+    // ASYMMETRIC - remove elements that are shared between sets from the first set / removing els in the intersection
         // set1.removeAll(set2) is not the same as set2.removeAll(set1)
-            // remove els that are in both sets from set 1
-            // remove els that are in both sets from set 2
+            // remove els that are in set2 from set 1
+            // remove els that are in set1 from set 2
         // set1 and set2 can be different so removing els from each will result in different sets
         // RESULT IS THE ELEMENTS THAT ARE UNIQUE TO THE SET YOU ARE REMOVING SHARED ELS FROM
-    // symmetric - elements that appear in one set or the other but not both
+
+    // SYMMETRIC - elements that appear in one set or the other but not both
         // REMOVE INTERSECTION FROM THE UNION OF 2 SETS
             // ELEMENTS THAT ARE UNIQUE TO BOTH SETS ARE RETURNED
 
-// ALL CLASSES THAT IMPLEMENT COLLECTIONS SHOULD
+// classes that implement Collections are recommended to have:
     // NO ARGS CONSTRUCTOR
     // CONSTRUCTOR THAT TAKES A COLLECTION AS AN ARG
 
@@ -67,7 +68,7 @@ public class SetMain {
         Set<String> words = new HashSet<>();
         String sentence = "one day in the year of the fox";
         String[] arrayWords = sentence.split(" ");
-        words.addAll(Arrays.asList(arrayWords));
+        words.addAll(Arrays.asList(arrayWords)); // creates a fixed length List
 
         for (String word : words) {
             System.out.println(word);
@@ -85,12 +86,12 @@ public class SetMain {
 
         System.out.println("asymmetric difference of nature - divine");
         Set<String> natureMinusDivine = new HashSet<>(nature);
-        natureMinusDivine.removeAll(divine);
+        natureMinusDivine.removeAll(divine); // returns nature words only
         printSet(natureMinusDivine);
 
         System.out.println("asymmetric difference of divine  - nature");
         Set<String> divineMinusNature = new HashSet<>(divine);
-        divineMinusNature.removeAll(nature);
+        divineMinusNature.removeAll(nature); // returns divine words only
         printSet(divineMinusNature);
 
 
@@ -102,13 +103,13 @@ public class SetMain {
         intersectionTest.retainAll(divine); // find intersection
 
         System.out.println("symmetric diff is union - intersection");
-        unionTest.removeAll(intersectionTest);
+        unionTest.removeAll(intersectionTest); // remove intersection only
         printSet(unionTest);
 
         System.out.println("intersection of nature and divine sets was removed");
         printSet(intersectionTest);
 
-        // containsAll - check if a set is a super-set of another
+        // containsAll - check if a set is a super-set of another; NON-DESTRUCTIVE
         System.out.println("====================");
         if (nature.containsAll(divine)) {
             System.out.println("divine is a sub-set of nature");
