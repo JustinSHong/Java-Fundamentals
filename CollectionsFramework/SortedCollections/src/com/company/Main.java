@@ -6,6 +6,18 @@ package com.company;
 // these collections have an ordering
 // non-chaotic
 
+// TreeMap
+    // non-chaotic ordering
+    // items are compared to each other to perform sorting (performance cost)
+    // must determine where in the tree to insert new items
+
+// there is a performance cost in using unsorted collections vs sorted ones
+
+// unmodifiable collections
+    // immutable - client code can not modify them
+    // the returned view collection can't be changed ---> individual items can be modified!!!
+
+import java.util.Map;
 
 public class Main {
     private static StockList stockList = new StockList();
@@ -69,6 +81,22 @@ public class Main {
         sellItem(timsBasket, "bread", 1);
         System.out.println(timsBasket);
         System.out.println(stockList);
+
+        System.out.println("\n============\n");
+        // we can't add items to an unmodifiable map
+//        temp = new StockItem("pen", 1.12);
+//        stockList.Items().put(temp.getName(), temp); // throws UnsupportedOperationException
+
+        System.out.println("\n============\n");
+        // individual items in unmodifiable views can be changed
+        stockList.Items().get("car").adjustStock(2000);
+        System.out.println(stockList);
+
+        // collection and items can not be modified
+        // actual items are not returned
+        for (Map.Entry<String, Double> prices : stockList.PriceList().entrySet()) {
+            System.out.println(prices.getKey() + " costs " + prices.getValue());
+        }
     }
 
     public static int sellItem(Basket basket, String itemName, int quantity) {

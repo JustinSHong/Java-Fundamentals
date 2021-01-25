@@ -51,6 +51,15 @@ public class StockList {
         return Collections.unmodifiableMap(list);
     }
 
+    // in this impl, the Collection and individual items can not be modified
+    public Map<String, Double> PriceList() {
+        Map<String, Double> prices = new LinkedHashMap<>();
+        for (Map.Entry<String, StockItem> item : list.entrySet()) {
+            prices.put(item.getKey(), item.getValue().getPrice());
+        }
+        return Collections.unmodifiableMap(prices);
+    }
+
     @Override
     public String toString() {
         String s = "\n===Stock List=== \n";
