@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc246a07-4702-4b64-acbe-7f4f274f3b94" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../LambdaExpressions/out/production/LambdaExpressions/com/company/EmployeeFunc.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../LambdaExpressions/out/production/LambdaExpressions/com/company/EmployeeFunc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LambdaExpressions/out/production/LambdaExpressions/com/company/Streams.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../LambdaExpressions/out/production/LambdaExpressions/com/company/Streams.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LambdaExpressions/src/com/company/EmployeeFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../LambdaExpressions/src/com/company/EmployeeFunc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LambdaExpressions/src/com/company/Streams.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../LambdaExpressions/src/com/company/Streams.java" afterDir="false" />
-    </list>
+    <list default="true" id="fc246a07-4702-4b64-acbe-7f4f274f3b94" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
