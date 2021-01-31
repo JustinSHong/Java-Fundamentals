@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc246a07-4702-4b64-acbe-7f4f274f3b94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../LambdaExpressions/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LambdaExpressions/out/production/LambdaExpressions/com/company/CodeToRun.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../LambdaExpressions/out/production/LambdaExpressions/com/company/CodeToRun.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LambdaExpressions/out/production/LambdaExpressions/com/company/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../LambdaExpressions/out/production/LambdaExpressions/com/company/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LambdaExpressions/out/production/LambdaExpressions/com/company/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../LambdaExpressions/out/production/LambdaExpressions/com/company/Main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LambdaExpressions/out/production/LambdaExpressions/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../LambdaExpressions/out/production/LambdaExpressions/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../LambdaExpressions/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../LambdaExpressions/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LambdaExpressions/out/production/LambdaExpressions/com/company/EmployeeMain$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../LambdaExpressions/out/production/LambdaExpressions/com/company/EmployeeMain$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LambdaExpressions/out/production/LambdaExpressions/com/company/EmployeeMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../LambdaExpressions/out/production/LambdaExpressions/com/company/EmployeeMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LambdaExpressions/src/com/company/Streams.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../LambdaExpressions/src/com/company/Streams.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +100,7 @@
       <workItem from="1606336748625" duration="962000" />
       <workItem from="1608052189235" duration="195000" />
       <workItem from="1608672266893" duration="36000" />
-      <workItem from="1611519340315" duration="1879000" />
+      <workItem from="1611519340315" duration="2478000" />
     </task>
     <servers />
   </component>
