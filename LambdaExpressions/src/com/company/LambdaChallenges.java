@@ -1,7 +1,11 @@
 package com.company;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.function.Function;
 import java.util.function.Supplier;
+import java.util.stream.Collectors;
 
 public class LambdaChallenges {
     public static void main(String[] args) {
@@ -52,6 +56,31 @@ public class LambdaChallenges {
         System.out.println("===== CHALLENGE 7 =====");
         String supplierResult = iLoveJava.get();
         System.out.println(supplierResult);
+
+        System.out.println("===== CHALLENGE 8 =====");
+//      Given a specific interface, we can map a lambda to it if the interface is a functional interface and if the
+//      method signature maps exactly to the arguments and the return types of the lambda
+
+//      java.util.concurrent.Callable interface is a functional interface and therefore can be represented with a lambda
+//      java.util.comparator is also a functional interface
+
+        System.out.println("===== CHALLENGE 9 =====");
+        List<String> topNames2015 = Arrays.asList(
+                "Amelia", "Olivia", "emily", "Isla", "Ava", "oliver", "Jack",
+                "Charlie", "harry", "Jacob"
+        );
+        Function<String, String> upperCaseFirstChar = (name) -> Character.toString(name.charAt(0)).toUpperCase() + name.substring(1);
+        List<String> res = upperCaseAndSort(topNames2015, upperCaseFirstChar);
+        System.out.println(res);
+
+        System.out.println("===== CHALLENGE =====");
+        long count = topNames2015.stream().filter((name) -> name.startsWith("A")).count();
+        System.out.println(count);
+    }
+
+
+    public static List<String> upperCaseAndSort(List<String> names, Function<String, String> toUpper) {
+        return names.stream().map(name -> toUpper.apply(name)).sorted().collect(Collectors.toList());
     }
 
     public static String everySecondChar(String source) {
