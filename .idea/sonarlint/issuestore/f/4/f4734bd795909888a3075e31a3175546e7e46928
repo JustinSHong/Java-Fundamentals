@@ -1,0 +1,40 @@
+
+D
+java:S3740Q"/Provide the parametrized type for this generic.(ú¿í
+S	java:S106>"9Replace this use of System.out or System.err by a logger.(’ñøÇùÿÿÿÿ
+S	java:S106C"9Replace this use of System.out or System.err by a logger.(µç¶ûÿÿÿÿ
+S	java:S106G"9Replace this use of System.out or System.err by a logger.(Ë—âÁúÿÿÿÿ
+S	java:S106H"9Replace this use of System.out or System.err by a logger.(İ Òúúÿÿÿÿ
+S	java:S106I"9Replace this use of System.out or System.err by a logger.(¶­»ƒÿÿÿÿÿ
+Q	java:S125X"<This block of commented-out lines of code should be removed.(ˆøÏ
+N	java:S106i"9Replace this use of System.out or System.err by a logger.(„ªÕà
+Q	java:S125l"<This block of commented-out lines of code should be removed.(«‰¸—
+N	java:S106~"9Replace this use of System.out or System.err by a logger.(´—Áç
+W	java:S125"<This block of commented-out lines of code should be removed.(ÊìÍĞùÿÿÿÿ
+T	java:S106ƒ"9Replace this use of System.out or System.err by a logger.(Å­Ëİúÿÿÿÿ
+O	java:S106ˆ"9Replace this use of System.out or System.err by a logger.(„ªÕà
+O	java:S106‰"9Replace this use of System.out or System.err by a logger.(ÌÅŠ
+T	java:S106"9Replace this use of System.out or System.err by a logger.(¬¨«üÿÿÿÿ
+O	java:S106‘"9Replace this use of System.out or System.err by a logger.(„ªÕà
+N	java:S106’"9Replace this use of System.out or System.err by a logger.(ú·äq
+a
+java:S1124–"EReorder the modifiers to comply with the Java Language Specification.(÷Üôøÿÿÿÿ
+O	java:S106¢"9Replace this use of System.out or System.err by a logger.(ÌŒßÕ
+O	java:S106Â"9Replace this use of System.out or System.err by a logger.(Ò¦ºÍ
+T	java:S106Æ"9Replace this use of System.out or System.err by a logger.(Ñ´ˆåûÿÿÿÿ
+L
+java:S1854Î"5Remove this useless assignment to local variable "i".(Ì‚ˆÌ
+B
+java:S1481Í"&Remove this unused "i" local variable.(ùó›Ìøÿÿÿÿ
+N	java:S106Ñ"9Replace this use of System.out or System.err by a logger.(ğŞˆ>
+R	java:S125Ò"<This block of commented-out lines of code should be removed.(Ã¿«½
+O	java:S106×"9Replace this use of System.out or System.err by a logger.(¾Í–Ì
+W	java:S125Û"<This block of commented-out lines of code should be removed.(ëß¥Íûÿÿÿÿ
+G
+java:S11281"1Remove this unused import 'java.util.Comparator'.(î¹ó¹
+>
+java:S1604;"(Make this anonymous inner class a lambda(ÉãÃ®
+y
+java:S1488v"^Immediately return this expression instead of assigning it to the temporary variable "result".(ÿÂ†ÿúÿÿÿÿ
+z
+java:S1488Ó"^Immediately return this expression instead of assigning it to the temporary variable "result".(ÿÂ†ÿúÿÿÿÿ

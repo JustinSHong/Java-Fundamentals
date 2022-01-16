@@ -1,19 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e05f0bd7-2da8-4ddd-b588-382a9c04174e" name="Default Changelist" comment="" />
+    <list default="true" id="e05f0bd7-2da8-4ddd-b588-382a9c04174e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Exceptions/out/production/Exceptions/com/company/Example.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Exceptions/out/production/Exceptions/com/company/Example.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exceptions/out/production/Exceptions/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Exceptions/out/production/Exceptions/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exceptions/src/com/company/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exceptions/src/com/company/Example.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exceptions/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exceptions/src/com/company/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1XupVzuATh5NukJCK4d6cUlgjP3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -35,6 +48,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -49,11 +63,12 @@
       <workItem from="1583039370790" duration="1153000" />
       <workItem from="1583172681247" duration="467000" />
       <workItem from="1583198279691" duration="20000" />
+      <workItem from="1641704147060" duration="18000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1638" height="268" key="GridCell.Tab.0.bottom" timestamp="1581988907051">

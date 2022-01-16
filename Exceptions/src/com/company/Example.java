@@ -10,19 +10,21 @@ import java.util.Scanner;
     // thread is shown as first line of stack trace
 
 // Throwable constructor() fills in the stack-trace for an exception
+    // Throwable has a fillInStackTrace() method
+    // when an exception is thrown:
+        // JRE sees what handles it -> go up the call stack (go down the stack)
+        // exception propagates up the call stack until a method handles an exception
+        // propagation happens until main() is reached
+            // stack trace is printed
+            // JRE terminates
 
-// when an exception is thrown:
-    // JRE sees what handles it -> go up the call stack
-    // exception propagates up the call stack until a method handles an exception
-    // propagation happens until main() is reached
-        // stack trace is printed
-        // JRE terminates
-
-// only catch() an exception if your code can do something sensible with it
+// only catch an exception if your code can do something sensible with it
     // do not cause additional exceptions in catch() blocks
     // keep catch() blocks simple
-    // use multiple catch() blocks to handle different exceptions clearly
-        // when an exception occurs, each catch() is checked in order to see if a catch() handles the exception
+
+// use multiple catch() blocks to handle different exceptions clearly
+    // can be a good way to reduce number of try/catch
+    // when an exception occurs, each catch() is checked in order to see if a catch() handles the exception
 
 // throwing exceptions -> keeps stack trace simple
 
@@ -42,9 +44,13 @@ public class Example {
         } catch (ArithmeticException e) {
             System.out.println(e.toString());
             System.out.println("Unable to perform division, shutting down");
+        } catch (NoSuchElementException e) {
+            System.out.println(e.toString());
+            System.out.println("No suitable input found, shutting down");
         }
     }
 
+    // avoid multiple try/catch blocks
     private static int divide() {
         int x, y;
         try {
@@ -62,6 +68,8 @@ public class Example {
         }
     }
 
+    // favor using multiple catch statements - easier to maintain/read
+    // main() - calling method will handle exceptions thrown
     private static int divideWithMultipleCatchBlocks() {
         int x, y;
         try {
@@ -78,7 +86,6 @@ public class Example {
         }
     }
 
-
     private static int getInt() {
         Scanner s = new Scanner(System.in);
         System.out.println("Please enter an integer ");
@@ -92,6 +99,5 @@ public class Example {
             }
         }
     }
-
 
 }

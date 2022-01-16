@@ -7,8 +7,8 @@ package com.company;
 // throwing an exception -> pass an exception to the calling code
 
 // strategies for dealing with errors
-    // LOOK BEFORE YOU LEAP - java does this (ie. null checks)
-    // EASY TO ASK FOR FORGIVENESS THAN PERMISSION
+    // LOOK BEFORE YOU LEAP - common in java (ie. null checks)
+    // EASY TO ASK FOR FORGIVENESS THAN PERMISSION - responding with errors
 
 // either strategy handles exceptions so think about use-case
 
@@ -20,14 +20,13 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-	    int x = 90;
-	    int y = 0;
+//	    int x = 90;
+//	    int y = 0;
+//
+//        System.out.println(divideLBLY(x, y));
+//        System.out.println(divideEAFP(x, y));
+//        System.out.println(divide(x, y)); // will crash
 
-        System.out.println(divideLBLY(x, y));
-        System.out.println(divideEAFP(x, y));
-        System.out.println(divide(x, y)); // will crash
-
-//        int a = getInt(); // will crash
 //        int a = getIntLBYL();
         int a = getIntEAFP();
         System.out.println("a is " + a);
@@ -50,6 +49,7 @@ public class Main {
         return 0;
     }
 
+    // can be better for maintainability - less lines, easy to scan
     private static int getIntEAFP() {
         Scanner s = new Scanner(System.in);
         System.out.println("Please enter an integer ");
@@ -61,12 +61,13 @@ public class Main {
         }
     }
 
+    // will crash if input contains non-integers
     private static int getInt() {
         Scanner s = new Scanner(System.in);
         return s.nextInt();
     }
 
-    // look before you leap
+    // look before you leap - check for error condition before proceeding
     private static int divideLBLY(int x, int y) {
         if (y != 0) {
             return x / y;
@@ -74,6 +75,7 @@ public class Main {
         return 0;
     }
 
+    // deal with errors when they come up
     private static int divideEAFP(int x, int y) {
         try {
             return x / y;
@@ -82,6 +84,7 @@ public class Main {
         }
     }
 
+    // will crash if y = 0
     private static int divide(int x, int y) {
         return x / y;
     }

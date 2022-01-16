@@ -1,0 +1,21 @@
+
+T
+$Exceptions/src/com/company/Main.java,e\7\e7e2f7c6e1fcbf77d9380a3c2230fab5d90a70c5
+W
+'Exceptions/src/com/company/Example.java,c\a\caf2c68754dea4f8795e7c1ce4856254efc0eef0
+R
+"Generics/src/com/company/Main.java,1\f\1f63ef989ac955ae0778954fa0f93b5fe022db51
+T
+$Generics/src/com/company/Player.java,2\4\2486c3c16561379a6e2c7ea2dfb40f72b6d28bb8
+R
+"Generics/src/com/company/Team.java,d\a\da9b238570462d90ffe4680ca4f910cd03b9bf0a
+\
+,Generics/src/com/company/FootballPlayer.java,7\d\7d8787528596fe5c132d2c9fd074deb4557d62f0
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+[
++LambdaExpressions/src/com/company/Main.java,f\4\f4734bd795909888a3075e31a3175546e7e46928
+c
+3LambdaExpressions/src/com/company/EmployeeFunc.java,4\2\424ef399011b842463401c9263b1eb4ee89c591e
+c
+3LambdaExpressions/src/com/company/EmployeeMain.java,4\0\406a4854529d2328d02006b134482dc01395a886

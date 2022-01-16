@@ -1,0 +1,58 @@
+
+D
+java:S3740Z"/Provide the parametrized type for this generic.(ú¿í
+K
+java:S3740²"/Provide the parametrized type for this generic.(¯¬®¾şÿÿÿÿ
+K
+java:S3740µ"/Provide the parametrized type for this generic.(Ùì„åıÿÿÿÿ
+X
+java:S1854´"<Remove this useless assignment to local variable "lastname".(ÆĞåÄşÿÿÿÿ
+S	java:S106`"9Replace this use of System.out or System.err by a logger.(¬¨«üÿÿÿÿ
+N	java:S106b"9Replace this use of System.out or System.err by a logger.(„ªÕà
+M	java:S106c"9Replace this use of System.out or System.err by a logger.(ú·äq
+S	java:S106f"9Replace this use of System.out or System.err by a logger.(ßÜÕûÿÿÿÿ
+M	java:S106i"9Replace this use of System.out or System.err by a logger.(ú·äq
+S	java:S106m"9Replace this use of System.out or System.err by a logger.(‘œÙ²ùÿÿÿÿ
+N	java:S106p"9Replace this use of System.out or System.err by a logger.(„ªÕà
+S	java:S106t"9Replace this use of System.out or System.err by a logger.(É³ Úüÿÿÿÿ
+T	java:S106"9Replace this use of System.out or System.err by a logger.(°»íãøÿÿÿÿ
+O	java:S106„"9Replace this use of System.out or System.err by a logger.(‚¥Œ
+O	java:S106ˆ"9Replace this use of System.out or System.err by a logger.(ıÈõÒ
+T	java:S106Š"9Replace this use of System.out or System.err by a logger.(ÒÔŠ›ÿÿÿÿÿ
+g
+java:S4276"QRefactor this code to use the more specialised Functional Interface 'IntSupplier'(¢áç
+W	java:S125Œ"<This block of commented-out lines of code should be removed.(ĞÔªşÿÿÿÿ
+O	java:S106’"9Replace this use of System.out or System.err by a logger.(îğ˜Ã
+T	java:S106—"9Replace this use of System.out or System.err by a logger.(ŠéÕÉüÿÿÿÿ
+N	java:S106›"9Replace this use of System.out or System.err by a logger.(¬Åñ=
+R
+java:S1611œ"6Remove the parentheses around the "employee" parameter(ı”Àúÿÿÿÿ
+o
+java:S1602œ"SRemove useless curly braces around statement and then remove useless return keyword(ı”Àúÿÿÿÿ
+T	java:S106¡"9Replace this use of System.out or System.err by a logger.(ç÷ÛÎøÿÿÿÿ
+o
+java:S1602£"SRemove useless curly braces around statement and then remove useless return keyword(ëÚ¥Šúÿÿÿÿ
+T	java:S106ª"9Replace this use of System.out or System.err by a logger.(İŠÇ¢úÿÿÿÿ
+O	java:S106¬"9Replace this use of System.out or System.err by a logger.(ç’ı
+w
+java:S4276±"[Refactor this code to use the more specialised Functional Interface 'UnaryOperator<String>'(Ìûôüÿÿÿÿ
+O	java:S106³"9Replace this use of System.out or System.err by a logger.(›¿’
+w
+java:S4276´"[Refactor this code to use the more specialised Functional Interface 'UnaryOperator<String>'(ÆĞåÄşÿÿÿÿ
+I
+java:S1481´"-Remove this unused "lastname" local variable.(ÆĞåÄşÿÿÿÿ
+T	java:S106¶"9Replace this use of System.out or System.err by a logger.(Éš•«úÿÿÿÿ
+T	java:S106¸"9Replace this use of System.out or System.err by a logger.(Ñ–Ê‚ùÿÿÿÿ
+j
+java:S1602¹"SRemove useless curly braces around statement and then remove useless return keyword(ç¾Æ¼
+T	java:S106¾"9Replace this use of System.out or System.err by a logger.(´¤Í¦ÿÿÿÿÿ
+N	java:S106Á"9Replace this use of System.out or System.err by a logger.(‘Ãö%
+W
+java:S1612Ã"@Replace this lambda with method reference 'String::toUpperCase'.(²ï
+\
+java:S1612Ä"@Replace this lambda with method reference 'System.out::println'.(”îü”úÿÿÿÿ
+T	java:S106Ä"9Replace this use of System.out or System.err by a logger.(”îü”úÿÿÿÿ
+T	java:S106É"9Replace this use of System.out or System.err by a logger.(†˜¡öùÿÿÿÿ
+O	java:S106Ì"9Replace this use of System.out or System.err by a logger.(„ªÕà
+C
+java:S1604x"(Make this anonymous inner class a lambda(Şùºşüÿÿÿÿ

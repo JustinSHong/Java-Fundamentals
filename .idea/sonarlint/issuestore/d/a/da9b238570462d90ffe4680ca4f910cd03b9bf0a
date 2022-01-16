@@ -1,0 +1,10 @@
+
+t
+java:S1210D"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(–©¶Þúÿÿÿÿ
+A
+java:S2175"&A "ArrayList<T>" cannot contain a "T".(‚ÑÌ–øÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(…®­Ýûÿÿÿÿ
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(Ê¾ªÆüÿÿÿÿ
+S	java:S106:"9Replace this use of System.out or System.err by a logger.(æÌ‡Âþÿÿÿÿ
+x
+java:S2234;"]Parameters to matchResult have the same names but not the same order as the method arguments.(¼‚çàùÿÿÿÿ
