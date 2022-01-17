@@ -1,17 +1,18 @@
 import java.io.*;
 import java.util.*;
 
-// write this location data to a file rather than hard coding them
-// executed when class is loaded - data available when invoking methods
-    // can write a main method to write out locations to a file
-
-// checked exceptions cannot be ignored (IOException)
-    // must be handled in some way
-        // catch and handle
-        // specify exception will be thrown up the call stack
-    // FileNotFoundException is a subclass of IOException
-
-public class Locations implements Map<Integer, Location> {
+// ========== DEALING WITH BYTE STREAMS ==========
+    // byte streams can be used to write any java primitive types
+    // special case to handle strings
+    // use FileOutputStream and FileInputStream instead of FileWriter and FileReader
+    // FileOutputStream - open file for writing
+    // use DataOutputStream and DataInputStream to read/write primitive type values from stream
+    // read 4 bytes at a time
+    // allows us to not worry about shifting bytes
+    // you need to know the format of the data being read/written
+    // these classes throw EOFException when end of file is reached - expected event
+    // should be treated separately to avoid confusion with other IOExceptions
+public class LocationsByteStream implements Map<Integer, Location> {
     private static Map<Integer, Location> locations = new LinkedHashMap<>();
 
     // read and save locations
@@ -68,37 +69,51 @@ public class Locations implements Map<Integer, Location> {
         }
     }
 
-    // we are specifying that this method throws IOException
-        // caller will know this - must catch or specify to throw
-        // specifying means you are passing the responsibility of handling the exception to the caller
-    public static void main(String[] args) throws IOException {
-        FileWriter locFile = null;
-        FileWriter dirFile = null;
-        try {
-            locFile = new FileWriter("locations.txt"); // open stream
-            dirFile = new FileWriter("directions.txt");
+    static {
+        try (DataInputStream locFile = new DataInputStream(new BufferedInputStream(new FileInputStream("src/location.dat")))) {
+            boolean eof = false;
 
-            // write locations to file
-            for (Location location : locations.values()) {
-                // write data to stream
-                locFile.write(location.getLocationID() + "," + location.getDescription() + "\n");
-
-                for (String direction : location.getExits().keySet()) {
-                    if(!direction.equalsIgnoreCase("Q")) {
-                        dirFile.write(location.getLocationID() + "," + direction + "," + location.getExits().get(direction) + "\n");
+            while (!eof) {
+                try {
+                    Map<String, Integer> exits = new LinkedHashMap<>();
+                    int locID = locFile.readInt();
+                    String description = locFile.readUTF();
+                    int numExits = locFile.read();
+                    System.out.println("Read location " + locID + " : " + description);
+                    System.out.println("Found " + numExits + " exits");
+                    for (int i = 0; i < numExits; i++) {
+                        String direction = locFile.readUTF();
+                        int destination = locFile.readInt();
+                        exits.put(direction, destination);
+                        System.out.println("\t\t" + direction + "," + destination);
                     }
+                    locations.put(locID, new Location(locID, description, exits));
+                } catch (EOFException e) {
+                    eof = true;
                 }
             }
-        } finally {
-            // always executed regardless of success or failure
-            // can execute any clean up that must happen
-            // need to close to avoid exceptions - resource leakage, locked files, data corruption, file locked
+        } catch(IOException e) {
+            e.printStackTrace();
+            System.out.println("IO EXCEPTION");
+        }
+    }
 
-            // defensive programming to ensure no crashes
-            if (locFile != null) {
-                System.out.println("Attempting to close locfile");
-                locFile.close(); // close() throws IOException
-                dirFile.close();
+    public static void main(String[] args) throws IOException {
+        try (DataOutputStream locFile = new DataOutputStream(new BufferedOutputStream(new FileOutputStream("src/location.dat")))) {
+            for (Location location: locations.values()) {
+                locFile.writeInt(location.getLocationID()); // write integer
+                locFile.writeUTF(location.getDescription()); // write string
+                System.out.println("Writing location " + location.getLocationID() + " : " + location.getDescription());
+                System.out.println("Writing " + (location.getExits().size() - 1) + " exits.");
+                locFile.writeInt(location.getExits().size() - 1);
+
+                for (String direction : location.getExits().keySet()) {
+                    if (!direction.equalsIgnoreCase("Q")) {
+                        System.out.println("\t\t" + direction + "," + location.getExits().get(direction));
+                        locFile.writeUTF(direction);
+                        locFile.writeInt(location.getExits().get(direction));
+                    }
+                }
             }
         }
     }
@@ -149,7 +164,7 @@ public class Locations implements Map<Integer, Location> {
     }
 
     @Override
-    public Set<Entry<Integer, Location>> entrySet() {
+    public Set<Map.Entry<Integer, Location>> entrySet() {
         return locations.entrySet();
     }
 
