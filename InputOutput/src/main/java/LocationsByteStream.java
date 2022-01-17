@@ -54,17 +54,38 @@ public class LocationsByteStream implements Map<Integer, Location> {
                 String direction = scanner.next();
                 scanner.skip(scanner.delimiter());
                 String destination = scanner.nextLine();
+                Integer dest = Integer.parseInt(destination);
 
                 System.out.println("Imported directions: " + loc + " : " + direction + " : " + destination);
 
                 Location location = locations.get(loc);
-                location.addExit(direction, loc);
+                location.addExit(direction, dest);
             }
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
             if (scanner != null) {
                 scanner.close();
+            }
+        }
+    }
+
+    public static void main(String[] args) throws IOException {
+        try (DataOutputStream locFile = new DataOutputStream(new BufferedOutputStream(new FileOutputStream("src/location.dat")))) {
+            for (Location location: locations.values()) {
+                locFile.writeInt(location.getLocationID()); // write integer
+                locFile.writeUTF(location.getDescription()); // write string
+                System.out.println("Writing location " + location.getLocationID() + " : " + location.getDescription());
+                System.out.println("Writing " + (location.getExits().size() - 1) + " exits.");
+                locFile.writeInt(location.getExits().size() - 1);
+
+                for (String direction : location.getExits().keySet()) {
+                    if (!direction.equalsIgnoreCase("Q")) {
+                        System.out.println("\t\t" + direction + "," + location.getExits().get(direction));
+                        locFile.writeUTF(direction);
+                        locFile.writeInt(location.getExits().get(direction));
+                    }
+                }
             }
         }
     }
@@ -95,26 +116,6 @@ public class LocationsByteStream implements Map<Integer, Location> {
         } catch(IOException e) {
             e.printStackTrace();
             System.out.println("IO EXCEPTION");
-        }
-    }
-
-    public static void main(String[] args) throws IOException {
-        try (DataOutputStream locFile = new DataOutputStream(new BufferedOutputStream(new FileOutputStream("src/location.dat")))) {
-            for (Location location: locations.values()) {
-                locFile.writeInt(location.getLocationID()); // write integer
-                locFile.writeUTF(location.getDescription()); // write string
-                System.out.println("Writing location " + location.getLocationID() + " : " + location.getDescription());
-                System.out.println("Writing " + (location.getExits().size() - 1) + " exits.");
-                locFile.writeInt(location.getExits().size() - 1);
-
-                for (String direction : location.getExits().keySet()) {
-                    if (!direction.equalsIgnoreCase("Q")) {
-                        System.out.println("\t\t" + direction + "," + location.getExits().get(direction));
-                        locFile.writeUTF(direction);
-                        locFile.writeInt(location.getExits().get(direction));
-                    }
-                }
-            }
         }
     }
 

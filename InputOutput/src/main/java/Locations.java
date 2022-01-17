@@ -52,12 +52,13 @@ public class Locations implements Map<Integer, Location> {
                 scanner.skip(scanner.delimiter());
                 String direction = scanner.next();
                 scanner.skip(scanner.delimiter());
-                String destination = scanner.nextLine();
+                String dest = scanner.nextLine();
+                int destination = Integer.parseInt(dest);
 
                 System.out.println("Imported directions: " + loc + " : " + direction + " : " + destination);
 
                 Location location = locations.get(loc);
-                location.addExit(direction, loc);
+                location.addExit(direction, destination);
             }
         } catch (IOException e) {
             e.printStackTrace();

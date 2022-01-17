@@ -49,7 +49,7 @@ public class LocationsTryWithResources implements Map<Integer, Location> {
                 System.out.println(loc + " : " + direction + " : " + destination);
 
                 Location location = locations.get(loc);
-                location.addExit(direction, loc);
+                location.addExit(direction, destination);
             }
         } catch (IOException ioException) {
             ioException.printStackTrace();

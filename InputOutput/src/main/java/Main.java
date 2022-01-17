@@ -24,17 +24,10 @@ import java.util.Scanner;
         // sequential - stream of data that arrives or is sent from a program in a specific order + pieces of data are ordered
         // random access - jump within file to retrieve or overwrite data in a chosen file (ie. database with indexing)
 
-// Object input/output stream - allows us to serialize an object and read/write as a unit
-    // serialization - objects must be transformed in to a series of bytes before being stored/recreated
-    // deserialization - convert byte representation of object in to a replica of the object
-    // classes must implement Serializable interface
-        // declare private field called serial version uid = version number of class
-        // using different compilers can cause issues -> different defaults of serial version uid for classes
-            // sets using class details -> changing class implies this would change
-
 public class Main {
-    private static Map<Integer, Location> locations = new Locations();
-
+//    private static LocationsSerializable locations = new LocationsSerializable();
+    private static Locations locations = new Locations();
+//    private static LocationsTryWithResources locations = new LocationsTryWithResources();
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -45,7 +38,7 @@ public class Main {
         vocabulary.put("WEST", "W");
         vocabulary.put("EAST", "E");
 
-        int loc = 64;
+        int loc = 1;
         while(true) {
             System.out.println(locations.get(loc).getDescription());
             if(loc == 0) {
